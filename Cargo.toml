@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "headset",
+]
+
+[workspace.package]
+version = "0.0.1"
+authors = ["Yongda Fan"]
+description = "stream your computer screen into vr headset"
+repository = "https://github.com/LogicFan/xr-workspace"
