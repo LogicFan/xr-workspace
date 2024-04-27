@@ -1,10 +1,17 @@
 [package]
-name = "xr_workspace_headset"
+name = "xr_workspace_app"
 version.workspace = true
 authors.workspace = true
 repository.workspace = true
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "xr_workspace_app"
+crate-type = ["rlib", "cdylib"]
 
 [dependencies]
+bevy_oxr = { git = "https://github.com/awtterpip/bevy_oxr.git", rev = "0b93358aa60568e3a28940b139006cc8d5f8ccd3" }
+bevy = "*"
+openxr = { version = "*", features = ["mint", "loaded"] }
+ndk-context = "*"
+jni = "*"
