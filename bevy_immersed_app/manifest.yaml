@@ -2,7 +2,7 @@ android:
   runtime_libs:
     - "runtime_libs"
   manifest:
-    package: "internal.yongdafan.xrworkspace"
+    package: "internal.yongdafan.bevy_immersed"
     uses_feature:
       - name: "android.hardware.vr.headtracking"
         required: true
@@ -15,7 +15,7 @@ android:
     uses_permission:
       - name: "com.oculus.permission.HAND_TRACKING"
     application:
-      label: "XR Workspace"
+      label: "Bevy Immersed"
       theme: "@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen"
       meta_data:
         - name: "com.oculus.intent.category.VR"

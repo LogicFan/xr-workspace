@@ -2,7 +2,7 @@
 resolver = "2"
 
 members = [
-    "headset",
+    "bevy_immersed_app",
 ]
 
 [workspace.package]

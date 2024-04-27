@@ -1,6 +1,8 @@
 #[cfg(not(target_os = "android"))]
 compile_error!("this crate is intended to be compiled against android");
 
+mod screen;
+
 use bevy::prelude::*;
 
 use bevy::render::render_resource::TextureFormat;

@@ -1,12 +1,12 @@
 [package]
-name = "xr_workspace_app"
+name = "bevy_immersed_app"
 version.workspace = true
 authors.workspace = true
 repository.workspace = true
 edition = "2021"
 
 [lib]
-name = "xr_workspace_app"
+name = "bevy_immersed_app"
 crate-type = ["rlib", "cdylib"]
 
 [dependencies]
